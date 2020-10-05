@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      #fullpage {
+        height: 800px;
+        background-image: linear-gradient(to right, #ff0066, #990099);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fullpage"></div>
+  </body>
+</html>
