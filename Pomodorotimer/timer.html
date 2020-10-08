@@ -49,16 +49,28 @@
           <hr>
 
     <div class="timerbox">
-      <button class="Pomodoro">Pomodoro</button>
-      <button class="Shortbreak">Shortbreak</button>
-      <button class="Longbreak">Longbreak</button>
+      <button class="Pomodoro"  onclick="change2red()"" >Pomodoro</button>
+      <script>
+        function change2red() {
+          document.body.style.backgroundColor = " rgb(240, 91, 86)";
+        }
+      </script>
+
+      <button class="Shortbreak" onclick="change2blue()">Shortbreak</button>
+      <script>
+        function change2blue() {
+          document.body.style.backgroundColor = "rgb(76, 166, 169)";
+        }
+      </script>
+      <button class="Longbreak" >Longbreak</button>
+      
       <div class="timernumber">25:00</div>
       &nbsp;
       <button class="Startbtn">START</button>
     </div>
     <div class="worknotify">Time to work!</div>
     <div class="taskbox">
-      Tasks
+      Tasks 
       
         <button class="actionbtn" style="font-size: 15px">
           <i class="fa fa-ellipsis-v"></i>
@@ -69,5 +81,6 @@
     <div class="addtask">
       <i class="fa fa-plus-circle" style="font-size: 24px"></i>&nbsp; Add Tasks
     </div>
+    
   </body>
 </html>
