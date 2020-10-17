@@ -225,3 +225,32 @@ hr {
   font-size: 16px;
   cursor: pointer;
 }
+.settingsblock {
+  padding: 20px 20px 0px;
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 540px;
+  margin-right: 250px;
+  margin-top: 65px;
+  width: 35%;
+  height: 65%;
+}
+.timerheading {
+  font-size: 16px;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  cursor: pointer;
+  width: 17px;
+  opacity: 0.3;
+  background: none;
+  border: none;
+}

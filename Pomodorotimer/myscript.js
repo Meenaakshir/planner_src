@@ -1,7 +1,7 @@
 function  pomonum() {
          document.body.style.backgroundColor = "rgb(240, 91, 86)";
          var pomonum = document.getElementsByClassName("timernumber");
-         pomonum.innerHTML = "25:00";
+         pomonum[0].innerHTML = "25:00";
 }
 function shortbreak() {
           document.body.style.backgroundColor = "rgb(76, 166, 169)";
@@ -35,3 +35,11 @@ function maillogin(){
     login [0].style.display = "none";
   }
 }
+function settingswindow() {
+  var setng = document.getElementsByClassName("settingsblock");
+  if(setng[0].style.display === "none") {
+    setng [0].style.display = "block";
+  } else {
+    setng [0].style.display = "none";
+  }
+  }
